@@ -202,8 +202,15 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\FoodItems.cs" />
+    <Compile Include="Models\HostedEvents.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\TailgateEvent.cs" />
+    <Compile Include="Models\Teams.cs" />
+    <Compile Include="Models\TeamsReference.cs" />
+    <Compile Include="Models\UserEvents.cs" />
+    <Compile Include="Models\UserInformation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
