@@ -17,11 +17,6 @@ namespace TailgateLive.Models
         [ForeignKey("HostedEvents")]
         public int HostedEventsId { get; set; }
         public HostedEvents HostedEvents { get; set; }
-        [ForeignKey("TeamsReference")]
-        public int TeamsReferenceId { get; set; }
-        public TeamsReference TeamsReference { get; set; }
-        [ForeignKey("UserEvents")]
-        public int UserEventsId { get; set; }
-        public UserEvents UserEvents { get; set; }
+
     }
 }
