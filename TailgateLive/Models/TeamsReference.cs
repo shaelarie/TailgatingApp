@@ -13,9 +13,9 @@ namespace TailgateLive.Models
         public int Id { get; set; }
         [ForeignKey("UserInformation")]
         public int UserInformationId { get; set; }
-        public UserInformation UserInformation { get; set; }
+        public UserInformation userInformation { get; set; }
         [ForeignKey("Teams")]
         public int TeamsId { get; set; }
-        public Teams Teams { get; set; }
+        public Teams teams { get; set; }
     }
 }

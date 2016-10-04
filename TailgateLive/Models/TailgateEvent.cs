@@ -24,6 +24,6 @@ namespace TailgateLive.Models
         public string Comments { get; set; }
         [ForeignKey("FoodItems")]
         public int FoodItemsId { get; set; }
-        public FoodItems FoodItems { get; set; }
+        public FoodItems foodItems { get; set; }
     }
 }

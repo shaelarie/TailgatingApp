@@ -13,6 +13,6 @@ namespace TailgateLive.Models
         public int Id { get; set; }
         [ForeignKey("TailgateEvent")]
         public int TailgateEventId { get; set; }
-        public TailgateEvent TailgateEvent { get; set; }
+        public TailgateEvent tailgateEvent { get; set; }
     }
 }
