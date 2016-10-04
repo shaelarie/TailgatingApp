@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 namespace TailgateLive.Migrations
 {
     using System;
@@ -30,7 +30,7 @@ namespace TailgateLive.Migrations
         }
     }
 }
-=======
+
 namespace TailgateLive.Migrations
 {
     using System;
@@ -62,4 +62,4 @@ namespace TailgateLive.Migrations
         }
     }
 }
->>>>>>> 8334f9b082da87f97222adca2e0dfc55faf340df
+

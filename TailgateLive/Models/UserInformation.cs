@@ -14,5 +14,10 @@ namespace TailgateLive.Models
         public string UserName { get; set; }
         public int ZipCode { get; set; }
         public int Rating { get; set; }
+
+        [ForeignKey("HostedEvents")]
+        public int HostedEventsId { get; set; }
+        public HostedEvents HostedEvents { get; set; }
+
     }
 }
