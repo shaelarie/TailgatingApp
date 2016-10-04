@@ -30,8 +30,8 @@ namespace TailgateLive.Models
             return new ApplicationDbContext();
         }
         public DbSet<UserInformation> userInformation { get; set; }
-        public DbSet<FoodItems> foodItems { get; set; }
         public DbSet<TailgateEvent> tailgateEvent { get; set; }
+        public DbSet<FoodItems> foodItems { get; set; }
         public DbSet<Teams> teams { get; set; }
     }
 }
