@@ -12,7 +12,7 @@ namespace TailgateLive.Models
         [Key]
         public int Id { get; set; }
         [ForeignKey("UserInformation")]
-        public int UserId { get; set; }
+        public int UserInformationId { get; set; }
         public UserInformation UserInformation { get; set; }
         [ForeignKey("TailgateEvent")]
         public int EventId { get; set; }
