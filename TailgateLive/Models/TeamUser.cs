@@ -7,15 +7,15 @@ using System.Web;
 
 namespace TailgateLive.Models
 {
-    public class UserEvents
+    public class TeamUser
     {
         [Key]
         public int Id { get; set; }
+        [ForeignKey("Teams")]
+        public int TeamsId { get; set; }
+        public Teams teams { get; set; }
         [ForeignKey("UserInformation")]
         public int UserInformationId { get; set; }
-        public UserInformation userInformation { get; set; }
-        [ForeignKey("TailgateEvent")]
-        public int TailgateEventId { get; set; }
-        public TailgateEvent failgateEvent { get; set; }
+        public TailgateEvent userInformation { get; set; }
     }
 }
